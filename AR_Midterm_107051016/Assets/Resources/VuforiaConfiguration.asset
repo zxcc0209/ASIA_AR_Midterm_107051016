@@ -13,32 +13,31 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVVsdTd1ei8vLy8vQUFBQUtPbE5oWVNXWmtia2c3U3JhZlhnWk9wMjUwQXBTSTBrdVFEa3NJcTBzajhUOUZuYkcxMkdBZUtpQTdxUlFSVjFkMlU4VXBMQkZhUWltOUlkdzErdi9rTXlFTVBDQzFHSHFKQkZ1a1VNZ2M2SWdISDZYRFdVcnhHWDFJLzIvYVFPcTFoa0R4czVuY3dFS1hzU1lzSmxsNk1XZEk0UDBjREN4cjRBc3ArcXE3eGFsVDhvOWJWWmU4U3JURFgwVHMyWHVpU1licU9sNEpPQjIrbUtuRXVncGpHMXBmTHRkM09ZTEhRWnpMSVdhS0lGQXZEMkdJeDdkZzVHSnBoT3Rrakp2NFU2a0l2M3lZN0pNbUhRM2hXMk8wNDdTR3VHOS9nYjhwT0JzU2M3b1dRTC9mdURkcDJSVmVINnNJSXpBQ3U4MXdOY01oeUtCR0Nqbyt0cWhoS0ZUQ3dsSmJqdmxtUzFnUW9USnRQVFJMUW8=
+    vuforiaLicenseKey: ARONIqr/////AAABmX+nP7no306Fnuo93AnchrVIzFYrM7IA05RkIU8Mom2h8txaCz3XIHooF0+qu71IeKNkj3H19kOXHALjoI6Ovpfvw/bmF8o2nG6iF4R+hzgpH/NMAjBoK94wQAV1yW255eyk3MevStHq3RAEfu8yk7oSqTYdNDjHhSRz7QmQMiJYF0S60eioxOCn5bH162Xyifork9FjYV2kgocrwe3NG9JgqlL4ipti61JUvfOTeYSuv/2H7fLOXjHIIbrUQF4GQSEgUn3T4Y0cko3/VL8IB0jflx1TYrJzm0NphgxnzzKQBahOtbLVFhAI6cow+W+hdoEW8OCieenkGkgN6RDO2swXe8/k3r3KwPqjCF150lWQ
+    ufoLicenseKey: QVdENXhTSC8vLy8vQUFBQUtPc3E2cWxablV0V3VtZkpyWlR6dm1FMUw0Rzg3S2xkNEc3TVpHSC9HV0RQNExNckd1d2FaSFpXZmdDdHJyeERuYURRajQ3RFBVemdjRllyZ211UEk1bDBkTUZJUkFncU5tZnpjNmkrZngzZTBWOWxCKzNORDhsbjFBMWU5bDdvMVRLRDl2aUVVSURpa1NSbkNaSmJ1amJmUDFIVGFkbUVSZ0NZcHg4cXgvVGtuUXRaeUswRms2cU9KbmxhM0JBVlFjMVJadmRuNXBNSlppY2RGUWJYazNObFNzTTU0a1RhU2ZGNEQ4ZnI0YjhacThaa0FKem8wVmVtc2lKRXNTSCtMUTh0WVVPYmRESW1ENkUvN3lCVlRQdFpnY2Y5NTBxREFkNUpyNVNpdEc4QXFUclpaNE16T0NIVjlaQUFEWEUwMHN0N0JYR2ZGVEJxOXpWSVhEcWlXWW0rdHRxZDNyYmtzUDhxU04rcmtDSjY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
+    virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 8.5.9
-    eulaAcceptedVersions: '{"Values":["8.5"]}'
+    version: 9.5.4
+    eulaAcceptedVersions: '{"Values":["8.5","9.3","9.5"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
-    arcoreRequirement: 0
-    autoImportArcore: 0
-  smartTerrain:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+  playmode:
+    mSequencePath: 
+    playModeType: 0
   webcam:
-    deviceNameSetInEditor: 
-    turnOffWebCam: 0
     renderTextureLayer: 30
